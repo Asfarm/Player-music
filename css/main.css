@@ -268,9 +268,12 @@ ul.submenu>li:nth-child(6) {
     color: #DCDCDC;
 }
 
+
 .navigator-sections-right>.drop-list>.menu>div:hover>.submenu {
     display: block;
 }
 
-.title-list3 {
-    margin: 15px 0 0 0;
+
+.navigator-title:hover {
+    color: white;
+}
