@@ -47,9 +47,15 @@ body {
 }
 .navigator {
     display: grid;
+    background-color: black;
     grid-template: 1fr / 1fr minmax(auto, 40px) minmax(auto, 635px) minmax(auto, 1160px) minmax(auto, 40px) 1fr;
-    
-    
+    border-bottom: solid 1px #808080;
+    position: fixed;
+    z-index: 100;
+
+   
+
+   
     
 }
 .navigator-sections-centr {
@@ -60,7 +66,7 @@ body {
 .navigator-img {
     grid-column: 2 / 3;
     padding: 12px 0 0 13px;
-
+   
 }
 .navigator-img>img{
     
